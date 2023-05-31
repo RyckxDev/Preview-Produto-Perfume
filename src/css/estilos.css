@@ -1,0 +1,275 @@
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+        font-family: 'Fraunces', serif;
+        font-family: 'Montserrat', sans-serif;
+        background-color:hsl(30, 38%, 92%);
+        margin: 0 auto;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center;
+        padding-top: 150px;
+    }
+
+    .titulo{
+        color: hsl(228, 12%, 48%) ;
+        font-size: 12px;
+        font-family: 'Fraunces', serif;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+        margin-left: 8px;
+        padding: 6px;
+    }
+
+    .subtitulo{
+        font-family: 'Fraunces';
+        text-align: left;
+        font-size: 38px;
+        line-height: 30px;
+        margin-left: 8px;
+        padding-top: 10px;
+    }
+
+    .paragrafo{
+        color: hsl(228, 12%, 48%) ;
+        text-align: left;
+        font-family: 'Fraunces', serif;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        margin-left: 15px;
+        padding-top: 8px; 
+    }
+
+    #card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 600px;
+        background-color: white;
+        border-radius: 15px;
+        display: flex;
+        border: 0 auto;
+        height: 425px;
+        margin-left: 350px;
+
+      }
+      
+      .container {
+        padding: 2px 16px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding-right: 150px;
+      }
+    /*cabo card*/
+
+    .preco{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    } 
+
+    .preco1{
+        color: hsl(158, 36%, 37%);
+        font-family: 'Fraunces';
+        font-size: 33px;
+        margin-left: 15px;
+        padding-top: 10px;
+    }
+
+    .preco2{
+        color: hsl(228, 12%, 48%) ;
+        font-size: 13px;
+        margin-top: -35px ;
+        margin-left: 175px;
+        text-decoration: line-through;
+    }
+
+    /*eles se vão tao rapido
+    .cart{
+        background-color: hsl(158, 36%, 37%);
+        padding: 20px;
+        border-radius: 15px;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0 auto;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    */
+    .img{
+        border-top-left-radius: 15px ;
+        border-bottom-left-radius: 15px ;
+        width: 100%;
+        height: 425px;
+    }
+
+    .button{
+        margin-left: 20px;
+        padding-top: 20px;
+        background-color: hsl(158, 36%, 37%);
+        border: 0 auto;
+        border-radius: 10px;
+        width: 230px;
+        height: 50px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        align-items: center;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .button:hover{        
+        transform: scale(1.02);
+        cursor: no-drop;
+        color: white;
+    }
+
+    @media only screen and (max-width: 767px) {
+    
+        body{
+            font-family: 'Fraunces', serif;
+            font-family: 'Montserrat', sans-serif;
+            background-color:hsl(30, 38%, 92%);
+            margin: 0 auto;
+            border: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            align-items: center;
+            padding-top: 20px;
+        }
+    
+        .titulo{
+            color: hsl(228, 12%, 48%) ;
+            font-size: 13px;
+            font-family: 'Fraunces', serif;
+            font-family: 'Montserrat', sans-serif;
+            text-align: left;
+            margin-left: 10px;
+            padding: 6px;
+        }
+    
+        .subtitulo{
+            font-family: 'Fraunces';
+            text-align: left;
+            font-size: 35px;
+            line-height: 30px;
+            margin-left: 18px;
+            padding-top: 10px;
+        }
+    
+        .paragrafo{
+            color: hsl(228, 12%, 48%) ;
+            text-align: left;
+            font-family: 'Fraunces', serif;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 17px;
+            margin-left: 15px;
+            padding-top: 8px; 
+        }
+    
+        #card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 375px;
+            background-color: white;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: row;
+            border: 0 auto;
+            height: 100%;
+            margin-left: 2.5px;
+          }
+          
+          .container {
+            padding: 2px 16px;
+            display: flex;
+            flex-direction: column;
+            padding-right: 150px;
+          }
+        /*cabo card*/
+    
+        .preco{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        } 
+    
+        .preco1{
+            color: hsl(158, 36%, 37%);
+            font-family: 'Fraunces';
+            font-size: 33px;
+            margin-left: 15px;
+            padding-top: 10px;
+        }
+    
+        .preco2{
+            color: hsl(228, 12%, 48%) ;
+            font-size: 13px;
+            margin-top: -40px ;
+            margin-left: 160px;
+            text-decoration: line-through;
+        }
+    
+        /*eles se vão tao rapido
+        .cart{
+            background-color: hsl(158, 36%, 37%);
+            padding: 20px;
+            border-radius: 15px;
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 0 auto;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+        */
+        .img{
+            border-top-left-radius: 15px ;
+            border-bottom-left-radius: 0px ;
+            border-top-right-radius: 15px;
+            width: 100%;
+            height: 250px;
+        }
+    
+        .button{
+            margin-left: 20px;
+            padding-top: 20px;
+            background-color: hsl(158, 36%, 37%);
+            border: 0 auto;
+            border-radius: 10px;
+            width: 230px;
+            height: 50px;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            align-items: center;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    
+        .button:hover{        
+            transform: scale(1.02);
+            cursor: no-drop;
+            color: white;
+        }
+        
+    }
+      
